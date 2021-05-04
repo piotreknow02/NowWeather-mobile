@@ -1,0 +1,54 @@
+name: now_weather
+description: The best weather app.
+
+
+version: 0.1.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^0.17.4
+  shared_preferences: ^0.5.7
+  http:
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: lib/assets/Fonts/Lobster/Lobster-Regular.ttf
+          weight: 300
+
+    - family: Comic Neue
+      fonts:
+        - asset: lib/assets/Fonts/Comic_Neue/ComicNeue-Regular.ttf
+          weight: 300
+        - asset: lib/assets/Fonts/Comic_Neue/ComicNeue-Bold.ttf
+          weight: 600
+        - asset: lib/assets/Fonts/Comic_Neue/ComicNeue-Italic.ttf
+          weight: 400
+        - asset: lib/assets/Fonts/Comic_Neue/ComicNeue-Light.ttf
+          weight: 200
+        - asset: lib/assets/Fonts/Comic_Neue/ComicNeue-LightItalic.ttf
+          weight: 100
+
+    - family: Raleway
+      fonts:
+        - asset: lib/assets/Fonts/Raleway/Raleway-Black.ttf
+          weight: 600
+  
